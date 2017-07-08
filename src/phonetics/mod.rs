@@ -1,0 +1,8 @@
+mod utils;
+
+/// Module soundex
+pub mod soundex;
+/// Module metaphone
+pub mod metaphone;
+/// Module phonex
+pub mod phonex;

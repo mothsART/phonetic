@@ -1,0 +1,21 @@
+[package]
+name = "phonetic"
+version = "0.1.0"
+authors = ["Ferry Jérémie <ferryjeremie@free.fr>"]
+
+[dependencies]
+rustbox = "0.8.1"
+postgres = "0.11.10"
+gettext = "0.2.0"
+itertools = "0.4.3"
+lazy_static = "0.2"
+regex = "0.1"
+clippy = { version = "0.0.35", optional = true }
+
+[[bin]]
+name = "search"
+path = "src/search.rs"
+
+[[bin]]
+name = "essai"
+path = "src/essai.rs"
